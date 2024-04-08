@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto";
+    font-weight: lighter;
+    font-style: normal;
+}
+
+nav {
+    background-color: #28A745;
+}
+
+h5 {
+    font-weight: normal;
+}
+
+h6 {
+    font-weight: lighter;
+    color: #707070;
+}
+
+i {
+    color: #a3a3a3;
+}
+
+.card-text {
+    display: flex;
+    justify-content: left;
+    gap: 0.5vw;
+}
+
+.verdecito {
+    color: #28a745;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.antiguo {
+    color: #707070;
+    text-decoration: line-through;
+}
+
+
+.card-footer {
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    gap: 10px;
+}
+
+section {
+    padding: 50px 20px 50px 20px;
+    background-color: #28A745;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+section>h3 {
+    color: white;
+}
+
+input {
+    margin: 20px 0 20px 0;
+}
+
+main {
+    margin: 100px 0 70px 0;
+}
+
+footer {
+    margin: 70px 0 70px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.navdiv {
+    display: flex;
+    justify-content: right;
+}
+
+.whitelogo {
+    height: 5vh;
+}
+
+.blacklogo {
+    height: 50px;
+    max-width: fit-content;
+}
